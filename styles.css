@@ -1,0 +1,95 @@
+/*bootstrap section start*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.container > div {
+	background-color: lightgray;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 500px;
+	text-align: center;
+}
+/*bootstrap section stop*/
+
+/*CSS identifiers start*/
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: CornflowerBlue;
+}
+
+h1 {
+	color: orange;
+	text-align: center;
+}
+
+td {
+	background-image: url("images/page1Pic.png");
+}
+/*CSS identifiers stop*/
+
+/*CSS id start*/
+#ptest {
+	font-size: 28px;
+	color: white;
+	text-align:center;
+}
+
+#border{
+    border: 5px dotted red;
+}
+
+#megHead{
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+/*CSS id stop*/
+
+/*CSS classes start*/
+.horImage{
+	width:300px;
+	height:200px;
+}
+
+.vertImage{
+	width:200px;
+	height:300px;
+}
+/*CSS classes stop*/
+
+@media (min-width: 775px) {
+	body {
+		background-color: springgreen;
+	}
+	td {
+	color:white;
+	font-size:28px;
+	}
+}
+
+@media (max-width: 775px) {
+	body {
+		background-color: Aqua;
+	}
+	td {
+	color:black;
+	font-size:28px;
+	}
+}
+
